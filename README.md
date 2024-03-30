@@ -2,8 +2,6 @@
 GAN network for converting real face images to artistic sketches
 
 
-Certainly! Here are the key changes between the two code snippets:
-
 1. Model Architecture:
    - The first code snippet uses a simple generator model with dense and convolutional layers, while the second code snippet uses a more complex generator model with convolutional and upsampling layers.
    - The second code snippet also includes a discriminator model for adversarial training, while the first code snippet does not.
@@ -23,4 +21,3 @@ Certainly! Here are the key changes between the two code snippets:
 5. Image Generation and Visualization:
    - Both code snippets generate and save images during training, but the second code snippet saves the generated images for both directions of image translation (X to Y and Y to X).
 
-These are the main differences between the two code snippets. The second code snippet appears to be more comprehensive and includes additional components such as the discriminator model and separate training loops for each direction of image translation.
